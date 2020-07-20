@@ -1,0 +1,223 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1">
+<meta name="author" content="" />
+<meta name="robots" content="index, follow" >
+<meta content="" name="keywords">
+<meta name="description" content="">
+
+<title>Contact Page</title>
+
+<!-- Open Sans Font Link -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700" rel="stylesheet"> 
+
+
+<!-- Style Css -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<!-- slick Css -->
+<link href="css/slick.css" rel="stylesheet" type="text/css" />
+
+<!-- Jquery Min Js -->
+<script src="js/jquery.min.js"></script>
+
+
+<!-- Custom Js -->
+<script src="js/custom.js"></script>
+
+
+<!-- Validate Js -->
+<script src="js/jquery.js"></script>
+
+
+
+
+
+</head>
+
+<body class="contact_page">
+
+<!-- Start Header -->
+<header class="header">
+     <div class="container">
+		<nav class="navbar">
+            <a href="#" class="logo"><img src="images/logo.png" alt="Logo"></a>
+			<span class="mobile_button"><img src="images/mobile_toggle.png" alt="Phone Icon"/></span>
+			<form class="search_box">
+				<div class="form-group">
+				  <input type="email" class="form-control" id="email" placeholder="Search here..." name="email">
+				</div>
+				<button type="submit" class="send_button">&nbsp;</button>
+			</form>
+			<ul class="menu">
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="#">Our Items</a></li>
+				<li><a href="#">Order Items</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#" class="order_now">Order Now</a></li>
+			</ul>
+		</nav>
+      </div>
+</header>
+<!-- End Header -->
+
+
+<!-- Banner -->
+<div class="contact_banner">
+	<div class="container">
+		<h3 class="title">contact</h3>
+	</div>
+</div>
+
+
+<!-- Contact Sec -->
+<div class="payment_content">
+	<div class="container">
+		<ul>
+			<li class="personal_info">
+				<h4 class="payment_title">Address</h4>
+				
+				<form class="info_form address_form">
+					<div class="form-group">
+						<input type="text" placeholder="Mail us" class="form_input">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Call us" class="form_input">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="WhatsApp us" class="form_input">
+					</div>
+					<div class="form-group address_info">
+						<textarea cols="10" name="comment" class="address">Address</textarea>
+					</div>
+					<button type="submit" class="send_button">send Now</button>
+				</form>
+			</li>
+			<li class="order_item">
+				<h4 class="payment_title">Send a Second Us</h4>
+				<div class="info_form">
+					<ul class="send_address">
+						<li>Name: <span>Big Mart zone</span></li>
+						<li>Mail id: <span>bigmartzone@gmail.com</span></li>
+						<li>Phone no: <span>8981721240</span></li>
+						<li>Address: <span> Postmaster, Post Office SANTRAGACHI (SUB OFFICE), HOWRAH, WEST BENGAL (WB), India (IN), Pin Code:- 711104</span></li>
+					</ul>
+				</div>
+				 
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- Contact Sec -->
+
+<!-- Start Contact Map -->
+<div class="contact_map">
+	<div class="google_map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117907.08692287673!2d88.10590778604715!3d22.556784334632457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f88249be00ca5f%3A0x3f5496c42f4bd6e8!2sHowrah%2C+West+Bengal!5e0!3m2!1sen!2sin!4v1549985477230" width="100%" height="450" frameborder="0" style="border:0" class="" allowfullscreen></iframe>
+	</div>
+</div>
+<!-- End Contact Map -->
+
+<!-- Scroll To Top -->
+<a href="javascript:void(0);" class="scrollToTop" style=""><img src="images/scroll_arrow.png" alt="Scroll Arrow"></a>
+
+<!-- Start Footert Sec -->
+<div class="footert_sec">
+	<div class="container">
+		<ul>
+			<li class="about_us">
+				<a class="f_logo" href="#"><img src="images/logo.png" alt="Address Icon"></a>
+				<p>Lorem ipsum dolor sit amet, consect etur ad ip iscing elit.</p>
+			</li>
+			<li class="f_link">
+				<h5 class="f_title">quick link</h5>
+				<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Our Items</a></li>
+				<li><a href="#">Order Items</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- End Footert Sec -->	
+
+<script src="js/slick.js"></script>
+
+<script>
+<!-- Banner Slider Js -->
+$('.banner_slider').slick({
+		
+	dots: false,
+	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	responsive: [
+		 
+	 {
+      breakpoint: 991,
+      settings: {
+       
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+       
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+	
+});
+
+<!-- Protfolio Thumble Js -->
+$('.protfolio_thumble').slick({
+	dots: true,
+	infinite: false,
+	speed: 300,
+	slidesToShow: 4,
+	slidesToScroll: 4,
+	arrows: false,
+	autoplay: true,
+	protfolio_thumble: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			infinite: true,
+			dots: true
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		  }
+		}
+	]
+});
+</script>
+</body>
+</html>
